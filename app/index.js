@@ -1,4 +1,5 @@
-let z = [4,5,6];
-let [four, five] = z;
+let king = { name: 'joe', kids: 1};
 
-console.log(four, five);
+let {name, kids} = king;
+
+console.log(name,kids);
